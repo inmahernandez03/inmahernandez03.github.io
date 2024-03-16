@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>LOUIS TOMLINSON WORLD TOUR 2026</title>
+		<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+		<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+	</head>
+	<body>
+		<header>
+			<hgroup style="text-align:center;color:darkred;"><h1>WALLS & FITF TOUR </h1>
+
+				<h3></h3>
+				<h4 style="text-align:center;color:grey"></h4>
+			</hgroup>
+			<nav>
+				<ul>Novedades:
+					<li>
+						<a href="https://www.abc.es/recetasderechupete/especial-recetas-para-navidad-nochebuena-nochevieja-y-reyes/">Recetas navideñas.</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.micasarevista.com/recetas-trucos-cocina/g111533/recetas-de-miedo-para-halloween/">Recetas Halloween.</a>
+					</li>
+				</ul>
+				<ol> Las mejores recetas de mi abuela:
+					<li>Tarta de queso.</li>
+					<figure>
+						<figcaption>
+						¿Qué te gusta más la tarta de queso o la de la abuela?
+					  </figcaption>	
+					  <img src="Fotos/tartaqueso.jfif" alt="tarta de queso">
+					</figure>
+					<audio src="Audios/cumpleaños feliz.mp3">
+					</audio>
+					<li>Tarta de la abuela.</li>
+					<figure>
+						<figcaption>
+						¿Qué te gusta más la tarta de la abuela o la de queso?
+					    </figcaption>
+					  <img src="Fotos/tartaabuela.jfif" alt="tarta de la abuela">
+				    <figure>
+				    	<video src="Videos/cumpleañosfeliz.mp4" type="video/mp4" controls="controls"></video>
+				    	<p>¿Quieres ver un video de cómo hacer la tarta de la abuela?</p>
+				    	<iframe src="https://www.youtube.com/watch?v=efSLH0Qa6L0" frameborder="0"></iframe>
+				    </figure>
+				</ol>
+				<ul>Otros menús:
+					<li>Entrantes ligeros.</li>
+					<li>Ensaladas de pasta.</li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<article class="articulo"> <span>¡¡Siempre he querido probar las recetas de mi abuela!!</span>
+				<p>Pero nunca he tenido la oportunidad de que me de las cantidades exactas porque nunca se acordaba, <strong> los roscos de Semana Santa</strong> estaban super buenos pero no me enseñó como los hacía.</p>
+				<p>Recuerdo que le salían buenísimos y los enviaba a todos los primos de fuera en cajas de cartón donde ponía en una etiqueta <em>Roscos de la abuela.</em> </p>
+				<p>Mi abuela era <em><strong>la superabuela.</strong></em></p>
+				<p>Te voy a contar un secreto que siempre me decía al realizar esta sabrosa tarta: <em>Hay que hacerla con mucho cariño y un poquito de canela</em> pero solo un <i>poquito</i> eh!!</p>
+			</article>
+			<article>
+				<div id="panelDerecha"> 
+					<p>Dicen que cocinar no sólo es entretenimiento sino también relaja, reduce el estrés y desarrollas la creatividad con tus platos</p>
+				</div>
+			</article>
+			<article class="articulo">
+				    <p>Con la comida también desarrollas la habilidad social. Seguro qeue has comido alguna vez con personas que no conoces de nada. Cómo te fue?</p>
+			</article>
+			<div> Formulario de contacto
+				<form id="form" name="form" method="post"action="contactar.php">
+					<span>Si quieres informarte sobre alguna receta en especia, envía un mensaje a mí contacto indicando tu nombre y tu correo </span>
+					<p>Introduce tu nombre:</p>
+					<input id="nombre" name="nombre" type="text" placeholer="contacto_nombre" onfocus='if(this.placeholder=='') this.placeholder= 'Introduce tu nombre:'' />
+					<br>
+                    <p>Introduce tu email:</p>
+                    <input id="email" name="email" type="text" placeholer="contacto_nombre" onfocus='if(this.placeholder=='') this.placeholder= 'Introduce tu email:'' />
+                    <br>
+                    <input type="submit" name="botonEnviar" id="button" value="Enviar"/> 
+                </form>
+            </div>
+		</section>
+	</body>
+</html>
